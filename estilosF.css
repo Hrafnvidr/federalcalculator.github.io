@@ -1,0 +1,895 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+/*PRELOADER*/
+
+
+
+
+
+
+/*PRELOADER*/
+
+@media  print {
+  
+  .Cabecera {
+   visibility: hidden;
+  }
+
+  .body {
+   background-color: #A3A3A3;
+  }
+
+  .Hero {
+   height: auto;
+  }
+
+  .Section1 *{
+   display: hidden;
+   
+   padding: 0px 0px 0px 0px;
+   height: auto;
+   offset-anchor: 0px;
+  }
+
+  .Form {
+   
+   margin: 0px;
+   
+   padding-top: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+
+}
+
+  .Section2 {
+   display: flex;
+   justify-content: center;
+   align-items: top;
+  } 
+}
+
+
+
+h1 {
+   font-size: 48px;
+   font-family: 'Roboto', sans-serif;
+}
+
+h2{
+   font-family: 'Roboto', sans-serif;
+}
+
+p{
+   font-family: 'Roboto', sans-serif;
+}
+
+
+
+.OLVA{ 
+   color: red;
+}
+
+.btn {
+   
+   display: block;
+   cursor: pointer;
+   color: #ffffff;
+   font-size: 20px;
+   padding: 1px 1px;
+   margin-top: 20px;
+   background-color: #F5D20A;
+   border:solid 1px #F5D20A;
+   border-radius: 20px 20px 20px 20px;
+   transition: .5s;
+  
+   box-shadow: none;
+   text align: center;
+}
+
+.btn a {
+   display: flex;
+   justify-content: center;
+   padding: 11px 40px;
+   text-decoration: none;
+   color: #ffffff;
+   transition: .5s;
+   border-radius: 20px;
+   
+}
+
+
+
+.btn:hover {
+   
+   cursor: pointer;
+   color: #F5D20A;
+   scale: 1.08;
+   background-color: #A3A3A3;
+
+}
+.btn a:hover {
+   
+   cursor: pointer;
+   color: #F5D20A;
+   scale: 1.03;
+   background-color: #A3A3A3;
+
+}
+
+.resultados button {
+
+  width: 100%;
+
+}
+
+
+
+
+
+body,html {
+   scroll-behavior: smooth;
+   width: 100vw;
+   scrollbar-highlight-color: #F5D20A ;  
+   
+   overflow-x: hidden;
+  
+   background-color: rgba(239, 239, 239);
+   margin: 0;
+   
+  
+
+}
+
+.Cabecera {
+   position: fixed;
+   z-index: 999;
+   
+   align-items: center;
+   height: auto;
+   width: 100vw;
+
+   background-color: transparent;
+   
+   
+   
+}
+
+
+.Header1 {
+   
+   
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+
+   
+   width: 100vw;
+   
+   
+   
+   background-color: #ffffff;
+   box-shadow: 0 10px 20px -5px rgb(0 0 0 / 50%);
+   transition: .8s; 
+}
+.Header-b {
+   
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+
+   background-color: #F5D20A;
+
+   padding: 8px 8px;
+   
+   width: 100vw;
+   
+   
+   box-shadow: 0 10px 20px -5px rgb(0 0 0 / 50%);
+   transition: .8s; 
+}
+
+
+.logo {
+   
+}
+
+.LogoH {
+   
+   width: 10rem;
+}
+
+.main-nav{
+   
+}
+
+.main-nav ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
+.main-nav ul li {
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   color: #ffffff;
+   float: left;
+   margin-left: 25px;
+
+
+}
+
+.main-nav ul li a {
+   text-decoration: none;
+   color: #ffffff;
+}
+
+.main-nav ul li a:hover {
+   color: #A3A3A3;
+}
+
+.main-nav ul li a:active {
+   color: #F5D20A;
+}
+
+
+
+
+.Hero{
+   background-image: url("https://github.com/Hrafnvidr/Hrafnvidr.github.io/blob/main/uploads/58%201.png?raw=true");
+   background-size: cover;
+   background-position-x: center;
+  background-repeat: no-repeat;
+
+   display: flex;
+   justify-content: center;
+   align-content: start;
+   align-items: center;
+
+   
+
+   
+
+   height: 100vh;
+   
+
+}
+
+.container-Hero {
+   display: block;
+   justify-content:center ;
+   align-content: start;
+   align-items: center;
+   width: auto;
+
+   margin-left: ;
+   
+
+   margin-top: 15px;
+   margin-right: ;
+
+}
+
+.container-Hero h1 {
+   color: #ffffff;
+   
+}
+
+.img-hero img {
+   display: flex;
+   justify-content: end;
+   align-content: center;
+   align-items: center;
+  
+  scale: .7;
+   padding-left: 50;
+   margin-left: ;
+   margin-right: ;
+   
+}
+
+.H-yellow {
+   color: #F5D20A;
+}
+
+
+
+
+
+
+.Section1 {
+   background-image: url("https://github.com/Hrafnvidr/Hrafnvidr.github.io/blob/main/uploads/06-Slide-especialidades_01%201.png?raw=true");
+   background-size: cover;
+   background-color: rgb(49, 49, 49/0%);
+   display: flex;
+   
+   justify-content: center;
+   align-content: center;
+   align-items: top;
+   
+
+  padding: 130px 0px;
+   
+   height: 100vh;
+   width: 100%;
+   
+   
+   offset-anchor: 100px;
+   
+    }
+
+
+
+.resultados {
+   background-image: url();
+   background-position: center right;
+   background-size: cover;
+
+   background-blend-mode: lighten ;
+   
+   background-color: rgba(239, 239, 239, 0.601);;
+   display: flex;
+   
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+   
+
+  padding: 130px 0px 80px 0px;
+   
+   height: auto;
+   width: 100%;
+   
+   
+   offset-anchor: 100px;
+   
+    }
+
+    .section1-title {
+      color: #000000;
+      border-right: solid #000 1px ;
+    }
+    .section1-title h1 {
+      color: #A3A3A3;
+      
+    }
+
+    
+
+    .container-section1 {
+      min-width:300px ;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      
+      
+      width: 28%;
+      height: fit-content;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 4px 6px  0px #F5D20A;
+      display: block;
+      transition: .8s;
+       
+   }
+
+   .container2-section1 {
+      
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+      padding-right: 40px;
+      
+      height: fit-content;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 4px 6px  0px #F5D20A;
+      display: block;
+      transition: .8s;
+       
+   }
+
+   .container3-section1 {
+      min-width:300px ;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      
+      
+      width: 45%;
+      height: fit-content;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 4px 6px  0px #F5D20A;
+      display: block;
+      transition: .8s;
+       
+   }
+
+   
+
+   
+
+   
+
+
+    .lilContainer-title {
+      text-align: center;
+      align-items: center;
+      align-content: center;
+     
+      margin-top: 10 px;
+      justify-content: center;
+      
+   }
+
+   .lilContainer-text {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+      
+      border-bottom: solid 1px #000;
+     
+      margin-top: 20px;
+      justify-content: space-between;
+      
+   }
+
+   .lilContainer {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+
+      padding: 4px 10px;
+      border-radius: 10px;
+
+      border: solid #000 1px;
+     
+      margin-top: 20px;
+      justify-content: space-between;
+      
+   }
+
+   .lilContainer-button {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+
+      padding: 4px 10px;
+      
+
+   
+     
+      margin-top: 20px;
+      justify-content: space-between;
+      
+   }
+
+   .lilContainer-result {
+      
+      text-align: left ;
+      
+    
+
+      padding: 10px 10px 10px 10px;
+      border-radius: 10px;
+
+     
+      
+      
+   }
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+.img-background   {
+   z-index: 1;
+   position: absolute;
+}
+
+.Section2 {
+   background-image: url("https://github.com/Hrafnvidr/Hrafnvidr.github.io/blob/main/uploads/01-Slide-Linea-automotris_01%201.png?raw=true");
+   
+   background-color: rgb(208, 210, 211);
+   display: flex;
+   align-content: center;
+   align-items: center;
+
+   
+   justify-content: center;
+   height: 100vh;
+   width: 100vw;
+   padding: 80px 0px;  
+
+}
+
+
+
+.container {
+   min-width:300px ;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin: 20px;
+   width: 28%;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 4px 6px  0px #F5D20A;
+   float: left;
+   transition: .8s;
+    
+}
+
+
+.container:hover{
+   scale: 1.03;
+   
+}
+
+
+
+.Form {
+ 
+   margin: auto;
+   vertical-align: center;
+   
+
+  
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
+
+}
+
+.form-control-texto {
+   border-top: solid 0px;
+   border-bottom: solid 1px;
+   border-left: none;
+   border-right: none;
+   border-color: black;
+   outline: none;
+
+   margin-bottom: 5px ;
+
+   font-size: 22;
+   width: 100%;
+   
+}
+
+.form-control {
+   border-top: solid 0px;
+   border-bottom: solid 1px;
+   border-left: solid 0px;
+   border-right: none;
+   border-color: black;
+   outline: none;
+
+   margin-bottom: 5px ;
+
+   font-size: 22;
+   width: 100%;
+   
+}
+
+.form-control-number {
+   border-top: solid 0px;
+   border-bottom: solid 0px;
+   border-left: solid 1px;
+   border-right: none;
+   border-color: black;
+   outline: none;
+
+   margin-bottom: 0px ;
+
+   font-size: 22;
+   width: 100%;
+   
+}
+
+
+.col-form-label{
+   font-family: "roboto", sans-serif;
+   font-size: 18;
+   font-weight: 400;
+   text-transform:;
+   text-align: left;
+}
+
+.input-texto-empresa {
+   font-size: 32px;
+   font-family: "roboto",sans-serif;
+   color: red;
+   text-align: center;
+   
+   
+}
+
+::placeholder {
+   color: rgb(232, 232, 232);
+}
+
+.input-texto {
+   font-family: roboto,san-serif;
+   font-weight: 400px;
+   color: red;
+   text-align: end;
+   font-size: 18px;
+   margin-bottom: -0.5px;
+   width: 100%;
+   
+}
+
+
+
+
+.form-control-title {
+    margin-left: 10px;
+ }
+
+ .hLabel{
+   size
+ }
+
+
+.constant-number{
+
+   padding: 2px 3px;
+   background-color: white;
+   color: red;
+   margin-left: 0px;
+   
+   border-radius: 1px;
+   outline: none;
+   margin-bottom: -0,5px;
+   width: 60px;
+}
+
+.variable-number{
+   font-size: 18;
+
+   padding: 2px 3px;
+   background-color: white;
+   color: black;
+   margin-left: 0px;
+   
+   border-radius: 1px;
+   outline: none;
+   margin-bottom: -0,5px;
+   width: 60px;
+}
+
+.variable-number-b{
+
+   padding: 3px 5px;
+   background-color: #A3A3A3;
+   color: red;
+   margin-right: -10px;
+   margin-top: -3px;
+   margin-bottom: -3px;
+   
+   border-radius: 1px;
+   outline: none;
+   margin-bottom: -0,5px;
+   width: 66px;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   
+   border-radius: 0px 8px 8px 0px;
+   
+}
+
+
+.alert {
+   font-family: "roboto", sans-serif;
+   margin: auto;
+
+   transition: .8s;
+}
+
+
+
+.alert::before{
+   display: none;
+}
+
+.alert::after{
+   display: contents;
+}
+
+.alert-ahorro {
+   position: absolute center;
+   margin: auto;
+   padding: ;
+   background-color: rgb(255, 255, 255);
+   transition: .8s;
+   text-align: center;
+}
+
+.ahorro-anual{
+   display: block;
+   cursor: pointer;
+   color: #ffffff;
+   font-size: 20px;
+   padding: 11px 40px;
+   margin: auto;
+   offset: -50px 0;
+   background-color: #7077ff;
+   border-color: #7077ff;
+   border-radius: 20px 20px 20px 20px;
+   transition: .5s;
+   box-shadow: none;
+}
+
+.ahorro{
+   background-color: white;
+}
+
+.resultados{
+  
+   text-align: center;
+}
+
+.resultados h1 {
+   margin-bottom: 60px;
+   color: red;
+}
+
+.resultados h2 {
+
+   border-top: solid #000 1px;
+   margin-bottom: 40px;
+
+ }
+
+ 
+
+
+/*responsive*/
+@media (max-width: 720px) {
+
+   .main-nav{
+      
+      line-height: 30px;
+   
+   }
+
+   .main-nav ul{
+      
+      justify-content: center center;
+      align-items: center;
+      align-content: center;
+      
+   }
+
+
+   .Hero{
+      background-image: url("https://github.com/Hrafnvidr/Hrafnvidr.github.io/blob/main/uploads/58%201.png?raw=true");
+      background-size: cover;
+      background-position-x: center;
+     background-repeat: no-repeat;
+   
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: start;
+      align-items: start;
+   
+      padding-top:  30px;
+      padding-left: 30px;
+   
+      
+   
+      height: 100vh;
+      
+   
+   }
+
+   .container-Hero img{
+      width: 80%;
+   }
+
+   
+
+   .img-hero{
+      
+      
+       
+    }
+
+   .Section1 {
+      background-image: url(none);
+      
+      background-color: rgb(49, 49, 49/0%);
+      display: flex;
+      flex-direction: column;
+      
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      
+   
+      padding-top: 80px;
+      
+      height: auto;
+      width: 100%;
+      padding-bottom: 80px;
+      padding-top: 80; 
+      
+       }
+
+
+       .container2-section1 {
+         min-width:300px ;
+         padding-top: 15px;
+         padding-bottom: 15px;
+         padding-left: 20px;
+         padding-right: 20px;
+   
+         
+         
+         width: 28%;
+         height: fit-content;
+         background-color: rgb(255, 255, 255);
+         box-shadow: 4px 6px  0px #F5D20A;
+         display: block;
+         transition: .8s;
+          
+      }
+
+       .Section2 {
+         background-color: rgb(208, 210, 211);
+         display: flex;
+         flex-direction: column;
+         align-content: center;
+         align-items: center;
+      
+         
+         justify-content: center;
+         height: 100%;
+         width: 100%;
+         padding-bottom: 80px;  
+       } 
+   
+
+
+}
+
+.container-btn-pdf {
+   
+   background-color: #A3A3A3/;
+   width: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   
+
+}
+
+.container-btn-pdf .btn {
+   position: relative;
+   bottom: 20px;
+   
+}
